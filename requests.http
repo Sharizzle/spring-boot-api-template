@@ -1,0 +1,22 @@
+### Get All Students
+GET http://localhost:8080/api/v1/student
+
+
+### Add New Student
+POST http://localhost:8080/api/v1/student
+content-type: application/json
+
+ {
+    "name": "Bilal",
+    "email": "bilal@gmail.com",
+    "dob": "2004-01-17"
+  }
+
+
+### Delete Student
+
+DELETE http://localhost:8080/api/v1/student/1
+
+### Update Student
+
+PUT http://localhost:8080/api/v1/student/1?name=Maria&email=maria.mary@gmail.com
